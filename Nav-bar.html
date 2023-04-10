@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>D&C Courier Company</title>
+<style type="text/css">
+
+    a{
+        text-decoration: none; text-align: right; align-items: right ; color: aliceblue;
+        top: auto; 
+    }
+    #h0{
+        font-size: 2.5rem;
+    }
+
+nav{
+    text-align: right; align-items: right; font-size: 1.8rem;
+    padding-right: 6rem; margin-right: 6rem;  margin-top: -40px;
+}
+.header-style{
+    height: 9rem; 
+}
+a:hover {
+    transition: 0.6s ease-in-out; color: rgb(187, 16, 16);
+    font-size: 2.2rem;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.content{
+    display: block; align-items: center; text-align: center; align-content: center;
+    font-size: 2rem; margin-top: 10%; left: 50%; 
+}
+ #box{
+    width: 200px; height: 30px; font-size: 25px;
+    border-radius: 5px; border-style: solid; background-color: rgb(255, 255, 255); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.LM{
+    width: 250px; height: 35px; border-radius: 5px; color: rgb(255, 255, 255); background-color: rgb(91, 76, 57);
+
+}
+.LM:hover{
+    transition: 0.5s ease-in-out; color: black; background-color: crimson;
+    
+}
+
+.sub{
+    width: 250px; height: 35px; border-radius: 5px; color: rgb(255, 255, 255); background-color: rgb(31, 162, 164);
+
+}
+.sub:hover{
+    transition: 0.5s ease-in-out; color: black; background-color: rgb(20, 60, 220);
+    
+}
+
+
+</style>
+
+</head>
+ <body>
+<header class="header-style" style="color: rgb(255, 255, 255); background-color: rgb(10, 62, 34);">
+    <h1 style="text-align: left; margin-left: 200px; padding-top: 1.5rem; padding-bottom:0 ; font-size: .4cm; font-style: italic; align-content: center; align-self: center;
+        font-family:'Times New Roman', Times, serif; color: aliceblue;"> <h0 id="h0">D & C</h0><br>Courier Pvt. Ltd.<i></i>
+        
+        </h1>
+
+
+    
+        <nav>
+            <a href="#">Home</a>  &nbsp;  &nbsp;
+            <a href="#">ABOUT</a>  &nbsp;  &nbsp;
+            <a href="#">SERVICES</a>  &nbsp;  &nbsp;
+            <a href="#">CONTACT</a>  &nbsp;  &nbsp;
+            <a href="#">FEEDBACK</a>
+        </nav> 
+</header>
+
+
+<div class="content">
+    <p>
+       We Provide Services in various cities across INDIA.
+       <br>
+       Choose your City name & Type PINCODE Below to Proceed.
+    </p>
+      Select
+    <input id="box" type="number" name="code" placeholder="PIN">
+    
+    <datalist id="cities">
+        <option value="HYDERABAD">
+        <option value="MUMBAI">
+        <option value="AHMEDABAD">
+        <option value="CHENNAI">
+        <option value="KOLKATA">
+        <option value="NEW DELHI">
+            <option value="LUCKNOW">
+                <option value="GOA">
+                    <option value="JAIPUR">
+                        <option value="BIHAR">
+                            <option value="HARYANA">
+                                <option value="VISHAKAPATNAM">
+
+        </datalist>
+        <select name="city" id="cities">
+            <option value="HYDERABAD">HYD</option>
+            <option value="MUMBAI">MUM</option>
+            <option value="AHMEDABAD">AHM</option>
+            <option value="CHENNAI">CHE</option>
+            <option value="LUCKNOW">LUC</option>
+            <option value="GOA">GOA</option>
+            <option value="JAIPUR">JAI</option>
+            <option value="BIHAR">BIH</option>
+            <option value="HARYANA">HAR</option>
+            <option value="VISHAKAPATNAM">VISH</option>
+        </select>
+
+    <input id="submit" type="submit" name="Submit" value="Check">
+    <br>
+    <br>
+
+    <button class="LM">LEARN MORE</button> 
+    <button class="sub">SUBSCRIBE</button> 
+    <!--No function of buttons, just made for looking attractive-->
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enquiry Website</title>
+    <style type="text/css">
+
+#cities{
+    width: 400px;
+
+}
+body{
+    background: cadetblue; 
+}
+
+.box1{
+    margin-left: 0%; margin-top: 1rem;  
+}
+.q-box{
+    width: 300px;
+    height: 150px;  text-align: left;
+}
+
+.btn{
+    color: antiquewhite; background-color: black; border-radius: 5px;
+   
+}
+
+.btn:hover{
+    color: rgb(189, 182, 182); background-color: rgb(255, 0, 93);
+    transition: 0.5s ease-in-out; font-size: 1rem;
+}
+</style>
+<head>
+
+</head>
+<body>
+<div class="container">
+<form align="center" name="register" id="register" action="www.enquiryform.com" method="post">
+    <caption> 
+        <p1 style="font-size: 3.5cm">ENQUIRY</p1></caption>
+    <div class="sel">
+
+        Select State : <br>
+
+        
+        <datalist id="cities">
+                <option value="Telangana">
+                <option value="Maharashtra">
+                <option value="Tamil Nadu">
+                <option value="Karnataka">
+                <option value="Rajasthan">
+                <option value="Uttar Pradesh">
+                    <option value="Haryana">
+                        <option value="Assam">
+                            <option value="Andhra Pradesh">
+                                <option value="Madhya Pradesh">
+                                    <option value="Uttarakhand">
+                                        <option value="Gujarat">
+                                    
+                                
+                            
+
+                </datalist>
+                <select name="city" id="cities">
+                    <option value="Telangana">TEL</option>
+                    <option value="Maharashtra">MAH</option>
+                    <option value="Tamil Nadu">TN</option>
+                    <option value="Karnataka">KA</option>
+                    <option value="Rajasthan">RAJ</option>
+                    <option value="Uttar Pradesh">UP</option>
+                    <option value="Haryana">HAR</option>
+                    <option value="Assam">ASM</option>
+                    <option value="Andhra Pradesh">AP</option>
+                    <option value="Uttarakhand">UKD</option>
+                    <option value="Gujarat">GUJ</option>
+
+            </select>
+
+ <div class="box1"><input type="text" name="username" placeholder="Enter Name"><br> <br>
+    <input type="email" name="e-mail" placeholder="Enter E-mail"> 
+   
+ </div>
+   <br>
+    
+    <input class="dob" name="DOB" type="DATE" /><br>
+    <br>
+
+<input name="number" type="code" placeholder="Enter Phone-Number"/><br>
+<br>
+<input name="Address" type="text" placeholder="Enter Complete Address"/><br> <br>
+
+<label>Enter your Query :</label><br>
+<input class="q-box" name="message" type="text" placeholder="Write your Message here!"/><br> <br>
+
+
+           
+            <input class="btn" type="submit" name="submit" value="submit" >
+            <input class="btn" type="reset" name="reset" value="reset" >
+        
+        
+        
+        </div>
+    
+            </form>   
+
+
+</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback Form</title>
+
+    <style type="text/css">
+
+body{
+    background-color: rgb(235, 66, 100);
+    overflow-y: scroll; scroll-behavior: smooth;
+}
+
+.text{
+   text-align: center;
+   flex-direction: row;
+}
+#rating{
+    width: 250px; height: 30px; border-radius: 10px; 
+}
+.sel{
+    font-size: 20px; display: block; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: aliceblue; text-shadow: 2px 2px black;
+}
+
+.lbl{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: aliceblue;
+    text-shadow: 2px 2px black;
+}
+
+.btn{
+    color: antiquewhite; background-color: rgb(17, 23, 125); border-radius: 10px;
+    padding-left: 25px; padding-right: 25px; 
+    
+   
+}
+
+.btn:hover{
+    color: rgb(0, 0, 0); background-color: rgb(68, 255, 0);
+    transition: 0.5s ease-in-out; font-size: 1rem;
+}
+    </style>
+
+
+
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <form align="center" name="register" id="register" action="www.feedbackform.com" method="post">
+            <caption> 
+                <p1 style="font-size: 1.5cm">Student Feedback</p1></caption>
+             <div class="text">
+                <h1>Please help us improve our courses by filling out this form.</h1></div>
+ 
+                <label class="lbl">Teacher/Instructor Name</label><br>
+<input class="t-box" name="teacher" type="text"> 
+ <br> <br>
+ 
+
+ <label class="lbl" >Subject</label>
+<input class="box1" name="subject" type="text"> 
+
+<label class="lbl">Course</label>
+<input class="box1" name="subject" type="text"> 
+<br>
+<br> 
+             
+
+<div class="sel">
+
+     Why did you choose this course?
+
+    <br>
+    <datalist id="rating">
+            <option value="Very Good">
+            <option value="Good">
+            <option value="Reasonable">
+            <option value="Bad">
+            <option value="Very Bad">
+            
+                                
+                            
+                        
+
+            </datalist>
+            <select name="rating" id="rating">
+                <option value="Very Good">Very Good</option>
+                <option value="Good">Good</option>
+                <option value="Reasonable">Reasonable</option>
+                <option value="Bad">Bad</option>
+                <option value="Very Bad">Very Bad</option>
+                
+
+        </select>
+        <br><br>
+        
+
+        Level of knowledge on start of course
+
+    <br>
+    <datalist id="rating">
+            <option value="Very Good">
+            <option value="Good">
+            <option value="Reasonable">
+            <option value="Bad">
+            <option value="Very Bad">
+            
+                                
+                            
+                        
+
+            </datalist>
+            <select name="rating" id="rating">
+                <option value="Very Good">Very Good</option>
+                <option value="Good">Good</option>
+                <option value="Reasonable">Reasonable</option>
+                <option value="Bad">Bad</option>
+                <option value="Very Bad">Very Bad</option>
+                
+
+        </select><br><br>
+     Level of effort invested in course
+      
+
+    <br>
+    <datalist id="rating">
+            <option value="Very Good">
+            <option value="Good">
+            <option value="Reasonable">
+            <option value="Bad">
+            <option value="Very Bad">
+            
+                                
+                            
+                        
+
+            </datalist>
+            <select name="rating" id="rating">
+                <option value="Very Good">Very Good</option>
+                <option value="Good">Good</option>
+                <option value="Reasonable">Reasonable</option>
+                <option value="Bad">Bad</option>
+                <option value="Very Bad">Very Bad</option>
+                
+
+        </select><br><br>
+        Level of knowledge at the end of course
+       
+       
+
+    <br>
+    <datalist id="rating">
+            <option value="Very Good">
+            <option value="Good">
+            <option value="Reasonable">
+            <option value="Bad">
+            <option value="Very Bad">
+            
+                                
+                            
+                        
+
+            </datalist>
+            <select name="rating" id="rating">
+                <option value="Very Good">Very Good</option>
+                <option value="Good">Good</option>
+                <option value="Reasonable">Reasonable</option>
+                <option value="Bad">Bad</option>
+                <option value="Very Bad">Very Bad</option>
+                
+
+        </select><br> <br>
+
+       Level of communication
+
+    <br>
+    <datalist id="rating">
+            <option value="Very Good">
+            <option value="Good">
+            <option value="Reasonable">
+            <option value="Bad">
+            <option value="Very Bad">
+            
+                                
+                            
+                        
+
+            </datalist>
+            <select name="rating" id="rating">
+                <option value="Very Good">Very Good</option>
+                <option value="Good">Good</option>
+                <option value="Reasonable">Reasonable</option>
+                <option value="Bad">Bad</option>
+                <option value="Very Bad">Very Bad</option>
+                
+
+        </select><br><br>
+           Would you recommend this course to your friends/other students?
+       <br>
+        <datalist id="rating">
+            <option value="Yes">
+            <option value="No">
+
+            </datalist>
+            <select name="rating" id="rating">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            
+            
+            </div>
+          
+<br>
+
+
+    
+             <input class="btn" type="submit" name="submit" value="submit" >
+    
+         
+
+     
+
+
+    </div>
+
+
+        
+        
+    
+</body>
+
+</html>
