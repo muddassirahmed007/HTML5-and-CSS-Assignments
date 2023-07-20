@@ -1,0 +1,120 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+h2{
+    color: rgb(54, 226, 19);
+    font-family: fantasy;
+    font-size: 5vh;
+}
+i{
+    color: rgb(255, 255, 255);
+}
+.main-grid{
+    display: grid;
+    grid-template-areas:
+    "heading heading heading heading"
+    "container container container container"
+    "footer footer footer footer" 
+    ;
+
+}
+.grid-child1{
+    grid-area: heading;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 30vh;
+    min-height: 20vh;
+    border-bottom: #fff solid 2px;
+}
+
+.tagline{
+    padding: 20px;
+
+}
+
+#navigators{
+    line-height: 80px; font-size: 1.5rem;
+}
+li{
+    list-style: none;
+}
+#nav{
+    padding: 8px;
+    margin: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1aa51a;
+    background-color: #fff;
+    border: solid 2px #41bd13;
+    border-radius: 20px;
+
+
+}
+#nav:hover{
+    transition: 0.6s;
+    color:#fff;
+    background-color: #2fff00;
+    box-shadow: 0 0 10px #2fff00,0 0 40px #2fff00,0 0 80px #2fff00;
+}
+
+
+.grid-child2{
+    grid-area: container;
+     display: flex; 
+     flex-direction: row;
+     gap: 6vh;
+     min-height: 70vh;
+     
+
+}
+.content{
+    max-height: 70vh;
+    width: 70%;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 1%;
+    color: black;
+    height: 60vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 5vh;
+    overflow-y: scroll;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+hr{
+    border-color: rgb(34, 231, 169);
+
+
+}
+.grid-child3{
+    grid-area: footer;
+    background-color: wheat;
+    color: #fff;
+    min-height: 10vh;
+    font-family: cursive;
+}
+/* just used this to align footer to the center */
+#footer-txt{
+    padding-left: 50%; color: black;
+    font-family: 'Times New Roman', Times, serif; background-color: gray;
+
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+.last {
+  color: rgb(41, 196, 235); float: right;
+}
